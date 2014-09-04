@@ -11,6 +11,8 @@ body {
 a {
   text-decoration: none;
   color: white;
+  padding-left: 20px;
+  padding-right:20px;
 }
 
 a:hover {
@@ -31,13 +33,13 @@ h1 {
   background:url(https://lh5.googleusercontent.com/-UL-JhrZjFi4/UcCSPclrNZI/AAAAAAAABZI/HgqJTFcJ7D8/w800-h533-no/Baboon_Wikimedia.jpg) no-repeat;
   background-size:720px 480px;
   background-position:-160px 0px;
-  height:200px;
-  width:200px;
+  height:480px;
+  width:480px;
   border-radius:50%;
   overflow:hidden;
   margin:auto;
 }
 
 #content {
-  height: 400px;
+  height: 800px;
 }
