@@ -3,17 +3,22 @@ body {
 }
 
 * {
-  font-family:American Typewriter Light, sans-serif;
+  font-family:American Typewriter, sans-serif;
   font-color: white;
   text-align: center;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
   text-size: 24px;
+}
+
+h1 {
+  color:white;
 }
 
 #links {
