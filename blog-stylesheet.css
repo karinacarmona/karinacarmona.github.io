@@ -1,5 +1,7 @@
 body {
   background-color:black;
+  background-image: url(http://imgur.com/IHCs201);
+  background-repeat: repeat-y;
 }
 
 * {
