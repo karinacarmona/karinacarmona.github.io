@@ -44,4 +44,9 @@ h1 {
 
 #content {
   height: 800px;
+  color:4c4c4c;
+}
+
+#footer {
+  height:150px;
 }
