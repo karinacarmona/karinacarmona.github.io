@@ -7,6 +7,7 @@ body {
   font-family:American Typewriter, sans-serif;
   font-color: white;
   text-align: center;
+  font-weight: lighter;
 }
 
 a {
@@ -23,6 +24,10 @@ a:hover {
 h1 {
   color:white;
   letter-spacing: 15px;
+}
+
+p {
+  color:white;
 }
 
 #links {
@@ -44,7 +49,9 @@ h1 {
 #content {
   width: 1000px;
   background-color:#4c4c4c;
+  opacity: 0.5;
   text-align: center;
   display:inline-block;
 }
+
 
