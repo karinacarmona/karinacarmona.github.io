@@ -32,11 +32,11 @@ h1 {
 }
 
 .clip-circle{
-  background:url(https://lh5.googleusercontent.com/-UL-JhrZjFi4/UcCSPclrNZI/AAAAAAAABZI/HgqJTFcJ7D8/w800-h533-no/Baboon_Wikimedia.jpg) no-repeat;
+  background:url(https://images.blogthings.com/thecolorfulpatterntest/pattern-4.png) no-repeat;
   background-size:720px 480px;
   background-position:-160px 0px;
-  height:480px;
-  width:480px;
+  height:200px;
+  width:200px;
   border-radius:50%;
   overflow:hidden;
   margin:auto;
