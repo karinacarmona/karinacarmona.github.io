@@ -54,4 +54,8 @@ p {
   display:inline-block;
 }
 
+div p {
+  color:white;
+  opacity: 1.0;
+}
 
