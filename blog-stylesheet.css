@@ -2,5 +2,21 @@ body {
   background-color:black;
 }
 
+* {
+  font-family:American Typewriter Light, sans-serif;
+  font-color: white;
+  text-align: center;
+}
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-size: 24px;
+}
+
+#links {
+
+}
 
