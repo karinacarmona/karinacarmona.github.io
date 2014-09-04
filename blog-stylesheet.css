@@ -42,8 +42,9 @@ h1 {
 }
 
 #content {
-  width: 800px;
+  width: 1000px;
   background-color:#4c4c4c;
   text-align: center;
+  float:none;
 }
 
