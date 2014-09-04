@@ -43,11 +43,8 @@ h1 {
 }
 
 #content {
-  width:600px;
+  width: 600px;
   height: 800px;
   color:white;
 }
 
-#footer {
-  height:150px;
-}
