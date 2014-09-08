@@ -1,0 +1,58 @@
+body {
+background-color:black;
+}
+
+.clip-circle {
+background:url(https://images.blogthings.com/thecolorfulpatterntest/pattern-4.png) no-repeat;
+background-size: 400px 400px;
+background-position: 0px 0px;
+height: 200px;
+width 200px;
+border-radius:50%;
+overflow:hidden;
+margin:15%;
+}
+
+*{
+font-family: American Typewriter, sans-serif;
+color:white;
+font-weight:lighter;
+}
+
+a {
+text-decoration:none;
+font-size:24px;
+}
+
+h1 {
+margin:10%;
+}
+
+#links {
+float:right;
+margin:15%;
+line-height:50px;
+border-left: 2px solid gray;
+}
+
+#left {
+float:left;
+}
+
+@media (max-width:600px) {
+
+#links {
+float:none;
+clear:both;
+border-left:none;
+margin:40%
+}
+
+.clip-circle {
+margin-left: 40%;
+}
+
+h1 {
+margin-left:40%;
+}
+}
