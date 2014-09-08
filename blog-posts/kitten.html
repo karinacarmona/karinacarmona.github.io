@@ -62,7 +62,7 @@ a {
   background: #A2A2A2;
 }
 
-@media screen and (max-device-width: 600px) {
+@media (max-width: 600px) {
     #header
     #side-a,
     #side-b,
@@ -70,14 +70,24 @@ a {
     #footer, {
         float:none;
         width:auto;
+
+    }
+    #content{
+        clear:both;
     }
 
-    #side-a  li  {
-        clear:both;
+    ul {
+        list-style-type:none;
+        position:absolute;
+    }
+
+    #side-a li {
+
         display:inline;
     }
     img {
         width:75%;
+        margin-top:80px;
     }
 
     }
