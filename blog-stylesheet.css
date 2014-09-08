@@ -23,7 +23,14 @@ a:hover {
 
 h1 {
   color:white;
-  letter-spacing: 15px;
+  letter-spacing: 15px
+  font-weight:bolder;
+}
+
+h2 {
+  color:white;
+  letter-spacing: 5px;
+  
 }
 
 p {
