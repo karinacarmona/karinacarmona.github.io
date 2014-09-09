@@ -34,6 +34,17 @@ h1{
 li {
   text-decoration:none;
   line-height: 50px;
+
+}
+
+li a {
+  text-decoration: none;
+  font-size: 28px;
+  font-variant: small-caps;
+}
+
+li a:visited {
+  color: violet;
 }
 
 ul {
