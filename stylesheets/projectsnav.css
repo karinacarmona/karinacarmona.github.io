@@ -33,4 +33,9 @@ h1{
 
 li {
   text-decoration:none;
+  line-height: 10px;
+}
+
+ul {
+  list-style: none;
 }
