@@ -14,7 +14,7 @@ width: 150px;
 border-radius:50%;
 overflow:hidden;
 margin-top:200px;
-margin-left:42.5%;
+margin-left:43.5%;
 position:absolute;
 }
 
@@ -63,6 +63,6 @@ width:54%;
 #right
 #left
 .clip-circle {
-margin-top:50%;
+margin-top:150px%;
 }
 }
