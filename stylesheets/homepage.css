@@ -10,7 +10,7 @@ height: 200px;
 width: 200px;
 border-radius:50%;
 overflow:hidden;
-margin:94%;
+margin:0;
 }
 
 *{
@@ -26,9 +26,8 @@ font-size:24px;
 }
 
 h1 {
-margin-left:15%%;
+margin-left:-37.5px;
 color:black;
-position:absolute;
 width:275px;
 clear:both;
 }
@@ -36,34 +35,30 @@ clear:both;
 #links {
 float:right;
 margin-right:25%;
-margin-top:-200px;
+margin-top:100px;
 line-height:50px;
 border-left: 2px solid gray;
 background-color:black;
 width:200px;
-height: 310px;
-clear:both;
+height: 250px;
+position:inherit;
+
 }
 
 #left {
 float:left;
-margin-top:35px;
+margin-top:100px;
+margin-left:30%;
 }
 
 @media (max-width:890px) {
 
+#left {
+  margin-left:50%;
+}
+
 #links {
-float:left;
-clear:both;
-border-left:none;
-margin-left:15%
-}
-
-.clip-circle {
-margin-left: 40%;
-}
-
-h1 {
-margin-left:15%;
-}
+  clear:both;
+  float:none;
+  margin-left: 50%;
 }
