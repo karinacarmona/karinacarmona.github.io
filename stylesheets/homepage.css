@@ -36,13 +36,15 @@ margin:25%;
 line-height:50px;
 border-left: 2px solid gray;
 background-color:black;
+width:200px;
+height: 310px;
 }
 
 #left {
 float:left;
 }
 
-@media (max-width:600px) {
+@media (max-width:890px) {
 
 #links {
 float:none;
