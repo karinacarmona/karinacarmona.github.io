@@ -15,8 +15,9 @@ h1{
   font-weight:bolder;
   }
 
-#links {
+#links a{
   padding: 10px;
+  text-decoration: none;
 
 }
 * {
