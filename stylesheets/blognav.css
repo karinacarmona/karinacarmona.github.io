@@ -46,8 +46,8 @@ margin-top:275px;
 }
 
 #left ul {
-  display:none;
   position:relative;
+  color:white;
 }
 
 #left h3 {
@@ -55,8 +55,9 @@ color:white;
 font-size:24px;
 }
 
-#left h4:hover ul {
-  display:block;
+#right ul {
+  position:relative;
+  color:black;
 }
 
 
