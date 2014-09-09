@@ -24,8 +24,7 @@ color:black;
 font-weight:lighter;
 }
 
-a {
-text-decoration:none;
+h3 {
 font-size:24px;
 font-variant: small-caps;
 }
@@ -53,6 +52,7 @@ margin-top:275px;
 
 #left h3 {
 color:white;
+font-size:24px;
 }
 
 #left h4:hover ul {
