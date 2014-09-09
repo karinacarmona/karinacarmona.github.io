@@ -46,9 +46,20 @@ position:relative;
 margin-top:275px;
 }
 
-#left a {
+#left ul {
+  display:none;
+  position:relative;
+}
+
+#left h3 {
 color:white;
 }
+
+#left h4:hover ul {
+  display:block;
+}
+
+
 
 @media (max-width:600px) {
 .clip-circle {
