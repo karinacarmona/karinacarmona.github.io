@@ -47,10 +47,10 @@ float:left;
 @media (max-width:890px) {
 
 #links {
-float:none;
+float:left;
 clear:both;
 border-left:none;
-margin:40%
+margin:15%
 }
 
 .clip-circle {
