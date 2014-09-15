@@ -30,7 +30,15 @@ h1 {
 h2 {
   color:white;
   letter-spacing: 5px;
-  
+
+}
+
+h3 {
+  color:white;
+}
+
+h3 p {
+  color:white;
 }
 
 p {
