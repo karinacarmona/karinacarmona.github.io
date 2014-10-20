@@ -14,7 +14,7 @@ body {
   position: absolute;
   float: left
   clear: both;
-  left: 5%;
+  left: 20%;
   top: 20%
 
 }
@@ -27,7 +27,7 @@ body {
  position: relative;
  clear: both;
  top: 20%;
- right: 6em;
+ right: 40%;
 }
 
 
@@ -68,7 +68,7 @@ a {
  text-decoration: none;
  float: right;
  color: red
- font-family: 'Federicka the Great';
+ font-family: 'Fredericka the Great';
 }
 
 
