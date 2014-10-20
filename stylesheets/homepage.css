@@ -52,6 +52,7 @@ body {
 
  h1 {
   font-size: 7em;
+  background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRw&url=http%3A%2F%2Fwww.pinterest.com%2Fpatternpeople%2Fcartooncomic-book-style%2F&ei=iBpFVOHUGuTuigLxkoDoBA&bvm=bv.77648437,d.cGE&psig=AFQjCNF84N4F2eqvmPJkgcMNz7sjq9YGQg&ust=1413901296263377);
 }
 
 
@@ -71,4 +72,6 @@ a {
  font-size: 30px;
  color: yellow
 }
-
+ a:hover {
+  color:gray;
+ }
