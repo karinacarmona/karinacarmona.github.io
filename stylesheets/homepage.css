@@ -65,10 +65,12 @@ a:visited {
 }
 
 a {
- text-decoration: none;
- float: right;
- color: red
  font-family: 'Fredericka the Great';
-}
 
+  text-decoration: none;
+ float: right;
+
+ font-size: 30px;
+ color: yellow
+}
 
