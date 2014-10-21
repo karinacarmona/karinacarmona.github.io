@@ -1,6 +1,6 @@
 body {
    position: absolute;
-
+   height: 1000px;
     left: 15%;
     }
 
@@ -88,7 +88,7 @@ body {
 
 .content{
     right: 40px;
-    left: 170px;
+    left: 570px;
     top: 35px;
     position: fixed;
     padding-bottom: 30px;
