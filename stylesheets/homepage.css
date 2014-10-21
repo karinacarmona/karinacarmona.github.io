@@ -5,7 +5,7 @@ body {
     }
 
 #header{
-    position: fixed;
+    position: absolute;
     z-index: 2000;
     width: 780px;
     height: 70px;
@@ -32,7 +32,7 @@ body {
   width: 780px;
   height:466px;
   background: url(http://i.giphy.com/JkQjkfgaW48tq.gif) no-repeat;
-  position: fixed;
+  position: absolute;
   background-size:100%;
   margin-top: -60px;
   margin-left: auto;
@@ -118,7 +118,7 @@ body {
   border-radius:50%;
   overflow:hidden;
   box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
-  left: 700px;
+  left: 350px;
   top: 380px;
   clear: both;
   position: fixed;
