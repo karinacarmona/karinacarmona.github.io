@@ -90,7 +90,7 @@ body {
     right: 40px;
     left: 170px;
     top: 35px;
-    position: absolute;
+    position: fixed;
     padding-bottom: 30px;
 }
 .content h2{
@@ -106,6 +106,7 @@ body {
   width: 300px;
   font-family: Ubuntu;
   font-size: 14px;
+
 }
 
 .content .clip-circle{
