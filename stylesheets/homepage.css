@@ -88,9 +88,9 @@ body {
 
 .content{
     right: 40px;
-    left: 570px;
+    left: 170px;
     top: 35px;
-    position: fixed;
+    position: absolute;
     padding-bottom: 30px;
 }
 .content h2{
