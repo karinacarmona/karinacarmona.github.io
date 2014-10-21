@@ -121,7 +121,7 @@ body {
   left: 350px;
   top: 380px;
   clear: both;
-  position: fixed;
+  position: absolute;
 }
 
 #blue {
