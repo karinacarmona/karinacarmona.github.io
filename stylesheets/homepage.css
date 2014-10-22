@@ -68,7 +68,7 @@ body {
 }
 
 .panel{
-    width: 780px;
+    width: 660px;
     height: 500px;
     top: 350px;
     overflow-y: auto;
@@ -85,7 +85,7 @@ body {
 }
 
 .panel:target{
-    margin-left: 15%;
+    margin-left: 19%;
     background-color: #ffcb00;
 }
 
