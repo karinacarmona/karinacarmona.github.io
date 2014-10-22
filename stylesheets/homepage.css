@@ -115,8 +115,13 @@ body {
 
 }
 
-.panel .content h2{
+.panel h2{
   top: 15px;
+  left: -20px;
+}
+
+.panel p {
+  left: -20px;
 }
 
 .content .clip-circle{
