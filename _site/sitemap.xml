@@ -2,80 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      
     <url>
-        <loc>karinacarmona/</loc>
+        <loc>http://karinacarmona.com/</loc>
     </url> 
     <url>
-        <loc>karinacarmona/documentation</loc>
+        <loc>http://karinacarmona.com/documentation</loc>
     </url> 
     <url>
-        <loc>karinacarmona/categories</loc>
+        <loc>http://karinacarmona.com/categories</loc>
     </url> 
     <url>
-        <loc>karinacarmona/tags</loc>
+        <loc>http://karinacarmona.com/tags</loc>
     </url> 
     <url>
-        <loc>karinacarmona/about</loc>
+        <loc>http://karinacarmona.com/about</loc>
     </url>
     
     
     <url>
-        <loc>karinacarmona/personal/first-commit</loc>
+        <loc>http://karinacarmona.com/photos/mood-ring</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/theme-setup/about-hmfaysal-omega</loc>
+        <loc>http://karinacarmona.com/personal/first-commit</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/a-status</loc>
+        <loc>http://karinacarmona.com/theme-setup/about-hmfaysal-omega</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/theme-setup/theme-elements</loc>
+        <loc>http://karinacarmona.com/sample-posts/a-status</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/photos/sample-gallery-post</loc>
+        <loc>http://karinacarmona.com/theme-setup/theme-elements</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/a-quotation</loc>
+        <loc>http://karinacarmona.com/photos/sample-gallery-post</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/videos/video-post</loc>
+        <loc>http://karinacarmona.com/sample-posts/a-quotation</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/fancy-columns</loc>
+        <loc>http://karinacarmona.com/videos/video-post</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/sample-mathjax-post</loc>
+        <loc>http://karinacarmona.com/sample-posts/fancy-columns</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/sample-link-post</loc>
+        <loc>http://karinacarmona.com/sample-posts/sample-mathjax-post</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/code-highlighting-post</loc>
+        <loc>http://karinacarmona.com/sample-posts/sample-link-post</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/photos/sample-post-images</loc>
+        <loc>http://karinacarmona.com/sample-posts/code-highlighting-post</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/readability-post</loc>
+        <loc>http://karinacarmona.com/photos/sample-post-images</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/theme-setup/installing-jekyll-on-windows</loc>
+        <loc>http://karinacarmona.com/sample-posts/readability-post</loc>
     </url>
     
     <url>
-        <loc>karinacarmona/sample-posts/readability-feature-post</loc>
+        <loc>http://karinacarmona.com/theme-setup/installing-jekyll-on-windows</loc>
+    </url>
+    
+    <url>
+        <loc>http://karinacarmona.com/sample-posts/readability-feature-post</loc>
     </url>
     
 </urlset>
