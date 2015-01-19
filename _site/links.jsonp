@@ -1,0 +1,78 @@
+callback([
+
+  {
+    "text": "Post with Large Feature Image and Text",
+    "href": "karinacarmona/sample-posts/readability-feature-post"
+  } ,
+
+  {
+    "text": "Installing Jekyll on Windows",
+    "href": "karinacarmona/theme-setup/installing-jekyll-on-windows"
+  } ,
+
+  {
+    "text": "Testing Readability with a Bunch of Text",
+    "href": "karinacarmona/sample-posts/readability-post"
+  } ,
+
+  {
+    "text": "A Post with Images",
+    "href": "karinacarmona/photos/sample-post-images"
+  } ,
+
+  {
+    "text": "Syntax Highlighting Post",
+    "href": "karinacarmona/sample-posts/code-highlighting-post"
+  } ,
+
+  {
+    "text": "Sample Link Post",
+    "href": "karinacarmona/sample-posts/sample-link-post"
+  } ,
+
+  {
+    "text": "Sample Mathjax Post",
+    "href": "karinacarmona/sample-posts/sample-mathjax-post"
+  } ,
+
+  {
+    "text": "Fancy Some Columns?",
+    "href": "karinacarmona/sample-posts/fancy-columns"
+  } ,
+
+  {
+    "text": "A Post with a Video",
+    "href": "karinacarmona/videos/video-post"
+  } ,
+
+  {
+    "text": "Sample Quotation Post",
+    "href": "karinacarmona/sample-posts/a-quotation"
+  } ,
+
+  {
+    "text": "Sample Gallery Post",
+    "href": "karinacarmona/photos/sample-gallery-post"
+  } ,
+
+  {
+    "text": "Theme Elements",
+    "href": "karinacarmona/theme-setup/theme-elements"
+  } ,
+
+  {
+    "text": "Sample Status Post",
+    "href": "karinacarmona/sample-posts/a-status"
+  } ,
+
+  {
+    "text": "ABOUT HMFAYSAL OMEGA",
+    "href": "karinacarmona/theme-setup/about-hmfaysal-omega"
+  } ,
+
+  {
+    "text": "First Commit",
+    "href": "karinacarmona/personal/first-commit"
+  } 
+
+])

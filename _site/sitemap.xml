@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     
+    <url>
+        <loc>karinacarmona/</loc>
+    </url> 
+    <url>
+        <loc>karinacarmona/documentation</loc>
+    </url> 
+    <url>
+        <loc>karinacarmona/categories</loc>
+    </url> 
+    <url>
+        <loc>karinacarmona/tags</loc>
+    </url> 
+    <url>
+        <loc>karinacarmona/about</loc>
+    </url>
+    
+    
+    <url>
+        <loc>karinacarmona/personal/first-commit</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/theme-setup/about-hmfaysal-omega</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/a-status</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/theme-setup/theme-elements</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/photos/sample-gallery-post</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/a-quotation</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/videos/video-post</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/fancy-columns</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/sample-mathjax-post</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/sample-link-post</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/code-highlighting-post</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/photos/sample-post-images</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/readability-post</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/theme-setup/installing-jekyll-on-windows</loc>
+    </url>
+    
+    <url>
+        <loc>karinacarmona/sample-posts/readability-feature-post</loc>
+    </url>
+    
+</urlset>
