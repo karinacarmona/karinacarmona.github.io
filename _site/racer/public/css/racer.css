@@ -1,0 +1,103 @@
+body{
+  background-image: url('https://33.media.tumblr.com/e10995d6b5cb02611ef3daf83d2e4e2c/tumblr_mnu29epECi1rfjowdo1_500.gif');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.boba {
+ background-image: url('http://fc01.deviantart.net/fs71/f/2012/002/c/e/bubble_tea_animation_avatar_by_loconut1-d4l41m0.gif');
+width: 50px;
+height: 100%;
+left: 1325px;
+position: absolute;
+
+}
+
+#karina {
+  background-image: url('../img/karina.png');
+  background-size: 250px auto;
+  height: 300px;
+  width: 250px;
+  margin: 0px;
+  position: absolute;
+}
+
+#stef {
+  background-image: url('../img/stef.png');
+   background-size: 250px auto;
+  height: 300px;
+  width: 250px;
+  position:absolute;
+}
+
+#arena {
+  background-color: yellow;
+  border-color: black;
+  border-style: solid;
+  position: relative;
+}
+
+.KarinaWins {
+  background-image:url('http://gifmaker.me/files/download/home/20141125/08/mwUW2MmCFbRv6TR6rDCuve/output_UPRx6b.gif');
+  left: 500px;
+  height: 400px;
+  width: 400px;
+  background-position: 10px -60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  display: none;
+  margin-top: 70px;
+}
+
+.StephWins {
+  background: pink;
+  background-image: url('http://gifmaker.me/files/download/home/20141125/08/0nLJ0OwQDlF6ysUFFObk9i/output_3BXUBo.gif');
+  background-size:400px auto;
+  left: 500px;
+  height: 400px;
+  width: 400px;
+  background-position: 10px -60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  display: none;
+  margin-top: 70px;
+}
+
+
+.StephWins h1{
+  font-family: 'Crafty Girls', cursive;
+  color: white;
+  text-align: center;
+
+}
+
+.KarinaWins h1{
+  font-family:'Crafty Girls', cursive;
+  color: pink;
+  text-align: center;
+
+}
+
+.restart {
+  background-image: url('../img/restart.jpg');
+  background-size:100px auto;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-top:750px;
+}
+
+/*.logo{
+  background-image: url('../img/logo.jpg');
+  background-size:400px auto;
+  left: 500px;
+  height: 400px;
+  width: 400px;
+  background-position: 10px -60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 100px;
+}*/
