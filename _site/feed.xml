@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://karinacarmona.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://karinacarmona.com" />
-<updated>2015-01-19T16:50:44-05:00</updated>
+<updated>2015-01-20T11:29:05-05:00</updated>
 <id>http://karinacarmona.com/</id>
 <author>
   <name>Karina Carmona</name>
@@ -24,61 +24,80 @@
     <uri>http://karinacarmona.com</uri>
     <email>karinakorracarmona@gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;sdfaffgfdHere are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to thefdvdfsf entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&amp;amp;W and change back to color on mouse-hover. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
+  <content type="html">&lt;p&gt;Mood Ring is crowd sourced music database that will play songs based on the user’s mood. A user can also add songs from Soundcloud to the music database. This final product was created in abour 3 days with a group of three other fantastic programmers. I took the role of Design Lead, making decisions on the UX/UI design of the app.&lt;/p&gt;
 
-&lt;h2 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h2&gt;
-
-&lt;h3 id=&quot;one-up&quot;&gt;One Up&lt;/h3&gt;
+&lt;h3 id=&quot;technologies-used&quot;&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ruby on Rails&lt;/li&gt;
+  &lt;li&gt;Object Oriented JavaScript&lt;/li&gt;
+  &lt;li&gt;Soundcloud API&lt;/li&gt;
+  &lt;li&gt;Web Audio API&lt;/li&gt;
+  &lt;li&gt;HTML5/CSS&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;http://karinacarmona.com/images/mood-ring1.png&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/mood-ring1.png&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;&lt;a href=&quot;http://karinacarmona.github.io/&quot; data-toggle=&quot;tooltip&quot; title=&quot;Visit my Website!&quot;&gt;Screencap of Mood Ring&lt;/a&gt;.&lt;/figcaption&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;http://moodringradio.herokuapp.com&quot; data-toggle=&quot;tooltip&quot; title=&quot;Visit my Website!&quot;&gt;Go to Mood Ring&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;two-up&quot;&gt;Two Up&lt;/h3&gt;
+&lt;h2 id=&quot;contributions&quot;&gt;Contributions&lt;/h2&gt;
 
-&lt;p&gt;Apply the &lt;code&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
+&lt;p&gt;Our app is deeply rooted in the principle of objected orientation specifically object orientation, specifically object oriented JavaScript. The audio controller, visualizer, slide controller, and database manager are all objects with their own functions which gave us the ability to manipulate, control, and change each of these very easily.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;half&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The database manager object can pull songs from the mood playlists and ‘get’ songs from the soundcloud api to add into the core music database.&lt;/p&gt;
 
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
+&lt;p&gt;The beautiful visualizer was implemented using the three.js library and Web Audio API. Three.js was ideal because it was an easy to understand library and it uses WebGL to render 3D interactive graphic and accelerated image rendering. As useful as three.js is, it doesn’t provide any tools to interact with audio files.&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (6).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (5).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (12).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (11).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (13).jpg&quot; /&gt;
-  &lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (19).jpg&quot; /&gt;
-  &lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;p&gt;For that, we turned to the Web Audio API. The audio congroller can create audio objects, control it’s playback, and set it’s source to a soundcloud stream URL sent from the database manager. That same audio object could then be connected to a frequency analyzer provided to us from the Web Audio API to process the frequency real time. That data is fed to our visualizer and it changes the radius of the mood ring accordingly.&lt;/p&gt;
 
-&lt;h3 id=&quot;three-up&quot;&gt;Three Up&lt;/h3&gt;
+&lt;p&gt;We are able to kill two birds with one stone with the Web Audio API becuase we can control the music player and visualizer with just one audio object.&lt;/p&gt;
 
-&lt;p&gt;Apply the &lt;code&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;third&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (22).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (21).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (24).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (23).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (74).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (73).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (4).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (3).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (18).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (17).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://karinacarmona.com/images/gallery1/photo (10).jpg&quot;&gt;&lt;img src=&quot;http://karinacarmona.com/images/gallery1/photo (9).jpg&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://karinacarmona.com/portfolio/mood-ring&quot;&gt;Mood Ring Radio&lt;/a&gt; was originally published by Karina Carmona at &lt;a href=&quot;http://karinacarmona.com&quot;&gt;Karina Carmona&lt;/a&gt; on January 05, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[SnoT TonS]]></title>
+  <link>http://karinacarmona.com/portfolio/snot</link>
+  <id>http://karinacarmona.com/portfolio/snot</id>
+  <published>2014-12-13T00:00:00-05:00</published>
+  <updated>2014-12-13T00:00:00-05:00</updated>
+  <author>
+    <name>Karina Carmona</name>
+    <uri>http://karinacarmona.com</uri>
+    <email>karinakorracarmona@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Snot Tons is meant to be a new based blog that I built for myself. I would use it to post a news topic, and then I would be able to add additional resources to that news post to back it up. Snot Tons was built in 10 hours as part of an assessment at DevBootcamp.&lt;/p&gt;
+
+&lt;p&gt;SnoT TonS has user authorization, and all CRUD functions for posts.&lt;/p&gt;
+
+&lt;h2 id=&quot;technologies&quot;&gt;Technologies&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ruby on Rails&lt;/li&gt;
+  &lt;li&gt;Javascript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/snot/log.png&quot;&gt;&lt;img src=&quot;/images/snot/sneeze.png&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/snot/view.png&quot;&gt;&lt;img src=&quot;/images/snot/log.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/snot/view.png&quot;&gt;&lt;img src=&quot;/images/snot/auth.png&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/snot/auth.png&quot;&gt;&lt;img src=&quot;/images/snot/boog.png&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/snot/boog.png&quot;&gt;&lt;img src=&quot;/images/snot/log.png&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Screenshots of SnoT TonS&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;I decided I wanted it to be a website with a horizontal slider layout which turned out to be quite a challenge. But the use can navigate through the site by clicking the links to scroll or click on the sides of the pages to scroll through the website.&lt;/p&gt;
+
+&lt;p&gt;I also implemented an interactive header, in which the blue constellations move with the mouse.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://karinacarmona.com/portfolio/snot&quot;&gt;SnoT TonS&lt;/a&gt; was originally published by Karina Carmona at &lt;a href=&quot;http://karinacarmona.com&quot;&gt;Karina Carmona&lt;/a&gt; on December 13, 2014.&lt;/p&gt;</content>
 </entry>
 
 
