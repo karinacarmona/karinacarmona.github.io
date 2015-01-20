@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about
+permalink: /karina-carmona/index.html
 title: Karina Carmona
 tags: []
 image:
