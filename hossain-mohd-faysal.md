@@ -1,14 +1,14 @@
 ---
 layout: page
-permalink: /hossain-mohd-faysal/index.html
-title: Hossain Mohd Faysal
-tags: [Hossain, Mohd, Faysal, hmfaysal]
+permalink: /about
+title: Karina Carmona
+tags: []
 image:
-  feature: Hossain-Mohd-Faysal.jpg
+  feature: Facetune.jpg
 ---
 <figure>
-  <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
-  <figcaption>Hossain Mohammad Faysal</figcaption>
+  <img src="{{ site.url }}/images/Facetune.jpg" alt="Karina Carmona">
+  <figcaption>Karina Carmona</figcaption>
 </figure>
 
 >Entrepreneur
@@ -42,11 +42,11 @@ Tools for the creative space — the 53 centimeters that magically link head, he
 > For
 >
 > the makers,
-> 
+>
 > the creators,
-> 
+>
 > the discoverers,
-> 
+>
 > the original thinkers,
-> 
+>
 > ### *This is the space to create.* ###
