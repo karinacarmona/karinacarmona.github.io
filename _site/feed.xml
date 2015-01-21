@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://karinacarmona.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://karinacarmona.com" />
-<updated>2015-01-21T16:22:26-05:00</updated>
+<updated>2015-01-21T16:47:49-05:00</updated>
 <id>http://karinacarmona.com/</id>
 <author>
   <name>Karina Carmona</name>
@@ -100,6 +100,37 @@
 &lt;p&gt;&lt;a href=&quot;http://snot.herokuapp.com&quot;&gt;View SnoT Tons live online&lt;/a&gt;&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://karinacarmona.com/portfolio/snot&quot;&gt;SnoT TonS&lt;/a&gt; was originally published by Karina Carmona at &lt;a href=&quot;http://karinacarmona.com&quot;&gt;Karina Carmona&lt;/a&gt; on December 13, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[DBC Experience]]></title>
+  <link>http://karinacarmona.com/personal/at-dbc</link>
+  <id>http://karinacarmona.com/personal/at-dbc</id>
+  <published>2014-12-12T00:00:00-05:00</published>
+  <updated>2014-12-12T00:00:00-05:00</updated>
+  <author>
+    <name>Karina Carmona</name>
+    <uri>http://karinacarmona.com</uri>
+    <email>karinakorracarmona@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;“Congratulations! You’ve been accepted into Dev Bootcamp NYC!”&lt;/p&gt;
+
+&lt;p&gt;I had no idea what to expect of this experience. All i know is that I had to go into it open minded. I was scared. I dropped out of college so I could pursue programming (a long epic about destiny). I was betting on myself and my capabilites. Hoping that I’d find something that I love and am great at.&lt;/p&gt;
+
+&lt;p&gt;After nine weeks of coding challenges at home (LA) and working 40-50 hours a week, I finally got on that plane and went to NYC to start school that Monday. That first week I spent 15 hours at school coding each day. And I wasn’t even tired, I was pumped!&lt;/p&gt;
+
+&lt;p&gt;Dev Bootcamp is split into 3 phases, each 3 weeks long, each with their own assessment to pass. In the beginning of each phase I would feel dumb and useless with all the new material, but by the second week I somehow would be grasping the material. And by “somehow” I mean hours of coding/snacking/banging my head.&lt;/p&gt;
+
+&lt;p&gt;The way DBC is structured gives way to a new type of learning. One that I will carry with me forever as a programmer. And that is learning how to learn. Something I never learned in college or any earlier school. They always gave me books that had answers, tests that had questions I could google, or equations I could just throw into Wolfram Alpha. But outside of that I couldn’t learn new ideas or ways of thinking. Follow up one google search with another and another until you understand a subject fully. They never taught me the value of blog posts, following news sites that aligned with my interests, or simply the right question to put into google.&lt;/p&gt;
+
+&lt;p&gt;I had struggled with teaching myself to program for awhile before I found DBC. And I’d go on the codeacademy websites, and take the lessons I could (that were free). But that only taught me syntax “sugga” and basic algorithm solving. But what about building a website or an application?&lt;/p&gt;
+
+&lt;p&gt;That’s how DBC teaches you. Set a goal. A small application and just do it. Do what you can and ask for help when you hit a roadblock. Find the right language or framework to use. Research! And doing what I love - building somehting out of nothing.&lt;/p&gt;
+
+&lt;p&gt;DBC taught me to push myself. To not settle for just learning the syntax. To learn by doing  (funnily enough the motto of my university). I found something I love, and I won’t stop trying be better at it.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://karinacarmona.com/personal/at-dbc&quot;&gt;DBC Experience&lt;/a&gt; was originally published by Karina Carmona at &lt;a href=&quot;http://karinacarmona.com&quot;&gt;Karina Carmona&lt;/a&gt; on December 12, 2014.&lt;/p&gt;</content>
 </entry>
 
 
