@@ -5,9 +5,6 @@
         <loc>http://karinacarmona.com/</loc>
     </url> 
     <url>
-        <loc>http://karinacarmona.com/documentation</loc>
-    </url> 
-    <url>
         <loc>http://karinacarmona.com/categories</loc>
     </url> 
     <url>
@@ -28,62 +25,6 @@
     
     <url>
         <loc>http://karinacarmona.com/personal/first-commit</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/theme-setup/about-hmfaysal-omega</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/a-status</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/theme-setup/theme-elements</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/photos/sample-gallery-post</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/a-quotation</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/videos/video-post</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/fancy-columns</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/sample-mathjax-post</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/sample-link-post</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/code-highlighting-post</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/photos/sample-post-images</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/readability-post</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/theme-setup/installing-jekyll-on-windows</loc>
-    </url>
-    
-    <url>
-        <loc>http://karinacarmona.com/sample-posts/readability-feature-post</loc>
     </url>
     
 </urlset>
