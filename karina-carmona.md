@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /karina-carmona/index.html
-title: Karina Carmona
-tags: []
+title:
+tags: [personal, aboutme]
 image:
   feature: Facetune.jpg
 ---
@@ -13,4 +13,9 @@ image:
 
 I am a creator.
 
-I always have been, and always will be. When I had first transfered to Cal Poly San Luis Obispo as a chemistry major
+I always have been, and always will be.
+
+<figure>
+  <img src="{{ site.url }}/images/KarinaResume2015 jpg.jpg" alt="Karina Carmona">
+  <figcaption>Resume</figcaption>
+</figure>
