@@ -1,4 +1,5 @@
-body#home {
+body#home,
+body#about {
   text-align: center;
   overflow-y: hidden;
   display: table;
@@ -6,11 +7,27 @@ body#home {
   height: 100%;
   margin: 0;
 }
-body#home .centered {
-  position: relative;
-  border: 20px solid black;
+body#home .centered,
+body#about .centered {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
 }
-body#home .centered h4 {
+body#home .centered .content-container,
+body#about .centered .content-container {
+  position: relative;
+  padding: 22px;
+  background-color: aliceblue;
+  width: 56%;
+  margin: 0 auto;
+}
+body#home .centered .content-container a,
+body#about .centered .content-container a {
+  font-family: monospace;
+  margin: 10px;
+}
+body#home .centered h4,
+body#about .centered h4 {
   font-family: 'Satisfy';
   color: #ff1493;
   position: absolute;
@@ -19,23 +36,28 @@ body#home .centered h4 {
   font-size: 96px;
   right: 103px;
 }
-body#home .centered h1 {
+body#home .centered h1,
+body#about .centered h1 {
   font-family: 'Open Sans';
   font-weight: 800;
   font-style: italic;
   color: #5566f1;
-  font-size: 150px;
+  font-size: 90px;
   margin: 0;
   right: 0;
   left: 0;
-  font-size: 280px;
-  letter-spacing: -4px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: -9px;
+  margin-bottom: 15px;
 }
-body#home .centered h1.overlay {
+body#home .centered h1.overlay,
+body#about .centered h1.overlay {
   color: #00ff00;
   letter-spacing: -9px;
-  font-size: 280px;
-  opacity: 0.3;
-  top: 0;
+  font-size: 87px;
+  opacity: 0.5;
+  top: 25px;
+  z-index: 0;
   position: absolute;
 }

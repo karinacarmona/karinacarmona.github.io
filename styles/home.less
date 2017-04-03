@@ -1,4 +1,4 @@
-body#home{
+body#home, body#about{
   text-align: center;
   overflow-y: hidden;
   display: table;
@@ -7,8 +7,20 @@ body#home{
   margin: 0;
 
   .centered{
-    position: relative;
-    border:20px solid black;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    .content-container{
+      position: relative;
+      padding: 22px;
+      background-color: aliceblue;
+      width: 56%;
+      margin: 0 auto;
+      a {
+          font-family: monospace;
+          margin: 10px;
+      }
+    }
     h4{
       font-family: 'Satisfy';
       color: #ff1493;
@@ -24,19 +36,21 @@ body#home{
       font-weight: 800;
       font-style: italic;
       color: #5566f1;
-      font-size: 150px;
-      font-size: 150px;
+      font-size: 90px;
       margin: 0;
       right: 0;
       left: 0;
-      font-size: 280px;
-      letter-spacing: -4px;
+      position: relative;
+      z-index: 1;
+      letter-spacing: -9px;
+      margin-bottom: 15px;
       &.overlay{
         color:#00ff00;
         letter-spacing: -9px;
-        font-size: 280px;
-        opacity: 0.3;
-        top: 0;
+        font-size: 87px;
+        opacity: 0.5;
+        top: 25px;
+        z-index: 0;
         position: absolute;
         &:before{
 
