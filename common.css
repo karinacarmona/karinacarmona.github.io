@@ -1,5 +1,6 @@
 body#home,
-body#about {
+body#about,
+body#work {
   text-align: center;
   overflow-y: hidden;
   display: table;
@@ -8,13 +9,16 @@ body#about {
   margin: 0;
 }
 body#home .centered,
-body#about .centered {
+body#about .centered,
+body#work .centered {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
+  padding-bottom: 60px;
 }
 body#home .centered .content-container,
-body#about .centered .content-container {
+body#about .centered .content-container,
+body#work .centered .content-container {
   position: relative;
   padding: 22px;
   background-color: aliceblue;
@@ -22,12 +26,14 @@ body#about .centered .content-container {
   margin: 0 auto;
 }
 body#home .centered .content-container a,
-body#about .centered .content-container a {
+body#about .centered .content-container a,
+body#work .centered .content-container a {
   font-family: monospace;
   margin: 10px;
 }
 body#home .centered h4,
-body#about .centered h4 {
+body#about .centered h4,
+body#work .centered h4 {
   font-family: 'Satisfy';
   color: #ff1493;
   position: absolute;
@@ -37,7 +43,8 @@ body#about .centered h4 {
   right: 103px;
 }
 body#home .centered h1,
-body#about .centered h1 {
+body#about .centered h1,
+body#work .centered h1 {
   font-family: 'Open Sans';
   font-weight: 800;
   font-style: italic;
@@ -52,7 +59,8 @@ body#about .centered h1 {
   margin-bottom: 15px;
 }
 body#home .centered h1.overlay,
-body#about .centered h1.overlay {
+body#about .centered h1.overlay,
+body#work .centered h1.overlay {
   color: #00ff00;
   letter-spacing: -9px;
   font-size: 87px;
@@ -60,4 +68,29 @@ body#about .centered h1.overlay {
   top: 25px;
   z-index: 0;
   position: absolute;
+}
+.client-container {
+  max-width: 300px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 12px;
+  font-family: monospace;
+  color: #5566f1;
+}
+.client-container img {
+  width: 100%;
+}
+.client-container .overlay-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  background: rgba(240, 248, 255, 0.42);
+  transition: 0.3s ease-in background;
+}
+.client-container .overlay-link:hover {
+  background: rgba(240, 248, 255, 0);
 }
