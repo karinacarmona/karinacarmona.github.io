@@ -42,9 +42,9 @@ body#work .centered h4 {
   font-size: 96px;
   right: 103px;
 }
-body#home .centered h1,
-body#about .centered h1,
-body#work .centered h1 {
+body#home h1,
+body#about h1,
+body#work h1 {
   font-family: 'Open Sans';
   font-weight: 800;
   font-style: italic;
@@ -58,9 +58,9 @@ body#work .centered h1 {
   letter-spacing: -9px;
   margin-bottom: 15px;
 }
-body#home .centered h1.overlay,
-body#about .centered h1.overlay,
-body#work .centered h1.overlay {
+body#home h1.overlay,
+body#about h1.overlay,
+body#work h1.overlay {
   color: #00ff00;
   letter-spacing: -9px;
   font-size: 87px;
@@ -68,6 +68,27 @@ body#work .centered h1.overlay {
   top: 25px;
   z-index: 0;
   position: absolute;
+}
+body#about h1.overlay {
+  padding-left: 0;
+  top: 3px;
+}
+body#about .content-container {
+  height: 450px;
+  padding: 0 !important;
+}
+body#about .content-container img {
+  position: absolute;
+  right: 0;
+  height: 450px;
+}
+body#about .content-container .text {
+  float: left;
+  width: 40%;
+  padding: 28PX;
+  COLOR: #5566f1;
+  font-family: monospace;
+  line-height: 27px;
 }
 .client-container {
   max-width: 300px;

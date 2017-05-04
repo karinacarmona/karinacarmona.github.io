@@ -31,31 +31,59 @@ body#home, body#about, body#work{
       right: 103px;
     }
 
-    h1{
-      font-family: 'Open Sans';
-      font-weight: 800;
-      font-style: italic;
-      color: #5566f1;
-      font-size: 90px;
-      margin: 0;
-      right: 0;
-      left: 0;
-      position: relative;
-      z-index: 1;
-      letter-spacing: -9px;
-      margin-bottom: 15px;
-      &.overlay{
-        color:#00ff00;
-        letter-spacing: -9px;
-        font-size: 87px;
-        opacity: 0.5;
-        top: 25px;
-        z-index: 0;
-        position: absolute;
-        &:before{
 
-        }
+  }
+  h1{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-style: italic;
+    color: #5566f1;
+    font-size: 90px;
+    margin: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    z-index: 1;
+    letter-spacing: -9px;
+    margin-bottom: 15px;
+    &.overlay{
+      color:#00ff00;
+      letter-spacing: -9px;
+      font-size: 87px;
+      opacity: 0.5;
+      top: 25px;
+      z-index: 0;
+      position: absolute;
+      &:before{
+
       }
+    }
+  }
+}
+
+body#about{
+  h1{
+    // padding-left: 228px;
+    &.overlay{
+      padding-left: 0;
+      top:3px;
+    }
+  }
+  .content-container{
+    height: 450px;
+    padding: 0 !important;
+    img{
+      position: absolute;
+      right:0;
+      height: 450px;
+    }
+    .text{
+      float: left;
+      width: 40%;
+      padding: 28PX;
+      COLOR: #5566f1;
+      font-family: monospace;
+      line-height: 27px;
     }
   }
 }
