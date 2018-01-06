@@ -1,19 +1,163 @@
 <html>
   <head>
     <title>Karjna Carmona</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,800i|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400i,700i|Reenie+Beanie|Roboto+Mono|Roboto:300,400,500,700" rel="stylesheet">
     <link href = "common.css" rel = "stylesheet">
+    <script src="https://use.fontawesome.com/7b48537a5c.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   </head>
   <body id = "home">
-    <div class = "centered">
-      <div class = "content-container">
-      <h1>Karina</h1>
-        <h1 class = "overlay">Karjna</h1>
-        <!-- <h4>Carmona</h4> -->
-        <a href = "about.html">About</a>
-        <a href = "work.html">Work</a>
-        <a href = "resume.pdf">Resume</a>
+    <div class = "container">
+      <div class = "header">
+        <div class = "pull-left">
+          <a href = "#work">Work</a>
+          <a href = "#about">About</a>
+        </div>
+        <div class = 'pull-right'>
+          <a href = "#contact">Contact</a>
+        </div>
       </div>
+      <div class = "hero">
+        <h1>- Karina Carmona is a developer living <br>and working in Los Angeles</h1>
+      </div>
+
+      <div id = "about">
+        <div class = "pull-left bio">
+          <h2>About</h2>
+          <p>
+            Karina is a smart and adaptive web developer, who first learned to code in 2014 by taking a computer science class at her university, Cal Poly San Luis Obispo. After discovering a passion in coding, she moved to New York City and attended Dev Bootcamp in 2015. After graduating, Karina moved back to her hometown Los Angeles where she found her job at Creativengine. She currently creates websites and web apps for Congress.
+          </p>
+        </div>
+        <img src = "images/me2.png" class = "pull-right">
+      </div>
+
+      <div id = "work">
+        <h2>Work</h2>
+        <p>For security reasons, Senate sites will not be linked. Non-Senate sites will be linked. Thank you for your understanding.</p>
+        <div class = "cbox">
+          <img src = "images/Kirsten.jpg">
+          <div class = "overlay">
+            <span>
+            Senator <br>Kirsten Gillibrand
+            <span class = "link">gillibrand.senate.gov</span>
+          </span>
+          </div>
+        </div>
+        <a href = "https://www.sandersinstitute.com/" target = "_blank" class = "cbox">
+          <img src = "images/Sanders-Institute.jpg">
+          <div class = "overlay">
+            <span>
+            The <br>Sanders Institute
+            <span class = "link">sandersinstitute.com</span>
+          </span>
+          </div>
+        </a>
+        <div class = "cbox">
+          <img src = "images/Baldwin.jpg">
+          <div class = "overlay">
+            <span>
+            Senator<br> Tammy Baldwin
+            <span class = "link">baldwin.senate.gov</span>
+          </span>
+          </div>
+        </div>
+        <div class = "cbox">
+          <img src = "images/Inaugural.jpg">
+          <div class = "overlay">
+            <span>
+            Joint Congressional Committee<br>  on
+              Inaugural Ceremonies
+              <span class = "link">inaugural.senate.gov</span>
+              </span>
+          </div>
+        </div>
+        <div class = "cbox">
+          <img src = "images/Democrats.jpg">
+          <div class = "overlay">
+            <span>
+            Senate Democrats
+            <span class = "link">democrats.senate.gov</span>
+          </span>
+          </div>
+        </div>
+        <div class = "cbox">
+          <img src = "images/Manchin.jpg">
+          <div class = "overlay">
+            <span>
+            Senator <br> Joe Manchin
+            <span class = "link">manchin.senate.gov</span>
+          </span>
+          </div>
+        </div>
+
+        <div class = "cbox">
+          <img src = "images/Lee.jpg">
+          <div class = "overlay">
+            <span>
+            Congresswoman <br> Barbara Lee
+            <span class = "link">lee.house.gov</span>
+          </span>
+          </div>
+        </div>
+        <div class = "cbox">
+          <img src = "images/Harris.jpg">
+          <div class = "overlay">
+            <span>
+            Senator <br> Kamala Harris
+            <span class = "link">harris.senate.gov</span>
+          </span>
+          </div>
+        </div>
+      </div>
+      <div id = "contact">
+        <h2> Contact</h2>
+        <div class = "icons">
+          <a class = "mail" href = "mailto:kgrjng@mgail.com"><i class = 'fa fa-envelope'></i></a>
+          <a class = "facebook" href = "https://www.facebook.com/karina.carmona17"><i class = "fa fa-facebook"></i></a>
+          <a class = "linked" href = "https://www.linkedin.com/in/kccarmona/"><i class = "fa fa-linkedin"></i></a>
+            <a class = "resume" href = "images/resume.pdf"><i class="" aria-hidden="true">Resume</i>
+            </a>
+        </div>
+      </div>
+
     </div>
+    <script>
+    $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          // $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            // $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+    </script>
   </body>
 </html>
